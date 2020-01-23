@@ -1,17 +1,13 @@
 language: python
 python:
   - 3.4
+  - 2.7
 
-script: python3 demo.py
+env:
+  - QA
+  - PROD
 
-#safelist
-branches:
- only:
-  - master
-  - /[upt][a-q]*[t]\b//
-#blocklist
-branches:
-  except:
-   - opt
-
-   #comments
+  script:
+    - mkdir ShortStory
+    - touch kkk
+    - echo 5
