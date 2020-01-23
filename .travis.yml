@@ -1,13 +1,14 @@
 language: python
 python:
   -3.4
-  -2.7
+
+script: python3 demo.py
 
 #safelist
 branches:
  only:
-  -master
+  - master
 #blocklist
 branches:
-  exept:
+  except:
    - opt
