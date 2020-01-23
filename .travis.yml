@@ -1,8 +1,8 @@
 language: python
 python:
-  -3.4
+  - 3.4
 
-script: python3 demo.py
+script: python3 demosta.py
 
 #safelist
 branches:
