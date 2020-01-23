@@ -8,6 +8,7 @@ script: python3 demo.py
 branches:
  only:
   - master
+  - /[upt][a-q]*[t]\b//
 #blocklist
 branches:
   except:
