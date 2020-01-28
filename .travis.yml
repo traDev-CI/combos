@@ -3,7 +3,7 @@ python:
   - 3.4
   - 2.7
 
-  script:
+script:
     - mkdir ShortStory
     - touch kkk
     - echo 5
