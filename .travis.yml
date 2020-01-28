@@ -1,9 +1,13 @@
-language: python
-python:
-  - 3.4
-  - 2.7
-
-script:
-    - mkdir ShortStory
-    - touch kkk
-    - echo 5
+job: 
+  include:
+      - stage: test
+        language: python
+        python:
+          - 3.4
+          - 2.7
+        script:
+            - mkdir ShortStory
+            - touch kkk
+            - echo 5
+      - stage: build
+        script: echo "This is the build stage"
