@@ -1,6 +1,7 @@
 job: 
   include:
       - stage: test
+        name: "Unit python test 3.4"
         language: python
         python:
           - 3.4
@@ -9,6 +10,7 @@ job:
             - touch kkk
             - echo 5
       - # stage: test
+        name: "Unit python test 2.7"
         language: python
         python:
           - 2.7
