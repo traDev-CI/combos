@@ -1,6 +1,6 @@
 job: 
   include:
-      - stage: test
+      - stage: Python
         name: "Unit python test 3.4"
         language: python
         python:
